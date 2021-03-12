@@ -1,0 +1,83 @@
+---
+title: "Project 2 Discussion Report"
+author: "Team 3 (Xincheng Zhao;Yiheng Lu;Yu Fu;Yixiang Cheng;Qibin Gong)" 
+date: "3/13/2021"
+output: html_document
+---
+```{r global_options, include=FALSE}
+knitr::opts_chunk$set(fig.pos = 'H')
+```
+
+***
+
+
+# 1 Overall impression
+
+<span style='color:blue'> 
+This report mainly analyzes the number of new cases and deaths in different countries and regions on a daily basis since January 2020. This article explores how COVID-19 has evolved on a global scale. The team looked specifically at when the increase in new cases peaked and which countries had the highest case fatality rate. In addition, whether the fatality rate is different in different regions has also been studied. The report is mainly divided into several sections: "Summary", "Introduction", "Background", "Descriptive Analysis", "Inference Analysis", "Sensitivity Analysis", "Discussion Priority", "Confirmation", and "Reference". Through the evaluation of classmates and the comparison of transcripts, we can draw the conclusion that our group's report basically meets the requirements and expectations, but there is still much room for improvement. Generally speaking, the report has achieved the purpose of analyzing and solving problems, but there are many deficiencies in description and explanation. For example, the introduction and background of the report should be more specific, the format of the report should be adjusted to make the report more integrated, the data charts in the analysis part should be more clear and properly supplemented with explanations, and the summary and analysis part should be more perfect, and connect with the future and the overall environment.
+</span> 
+
+# 2 Major comments 
+
+<span style='color:blue'> 
+1. Introduction and Background are incomplete. First of all, why we need to add on the subject (the when the happens in new cases peaked and which countries had the highest case fatality rate. In addition, been the fatality rate is the company in the company regions) interested in it. As COVID-19 has been a serious problem around the world for over a year, we can explore more reasons to support our starting point, such as why this topic is important. (e.g. Why do we pay special attention to case mortality?)
+</span> 
+
+<span style='color:blue'> 
+For example, we are looking at the highest value in the world, selecting the country). We can also cite other authoritative studies to establish a simple background for our research. Secondly, we should have a more specific explanation of our data in the introduction section and further explain the reason for our application of this model. The paragraph on case fatality in the descriptive analysis could be moved to the background information section to explain the sources of the global case fatality rate.
+</span> 
+
+<span style='color:blue'> 
+2. Before using specific data, we need to explain why we chose it. For example, we focused on China and the United States in our research. We first need to provide a brief background of the two sets of data or the two countries, the similarities, the differences, and the reasons for choosing them and their validity. After that, we need to connect our two countries and the world. Because the purpose of our exploration is global, it would be unconvincing to draw a global conclusion without specific explanation and analysis. In addition, we also need to consider other relevant variables, such as why we set the data range as from January 3, 2020.In this paper, we assume that vaccines are the reason for the decrease in new cases, but this assumption is problematic. We also need to consider other factors that may have contributed to the decrease in cases. Delayed test results and availability can also contribute to this trend. 
+</span> 
+
+<span style='color:blue'> 
+3. I think we should also add the discussion part. The results of research are very important, and we can't forget the practicality and constructiveness of a research. Based on the results of the analysis, we can look forward to more relevant explorations and make positive measures in the future. For example, we find that the number of new cases and deaths peaks around January 2021 and then declines. This could be because more people are being vaccinated. In this regard, we know that the vaccine has a positive effect on COVID-19 mortality, so we can recommend that the vaccine be used in all regions of the world to improve the situation. In addition, we know that the case fatality rate in the Western Pacific region is significantly lower than in the Eastern Mediterranean region, which is more affected by the pandemic than the Western Pacific region. The reason behind this is worth further investigation. Different regions have different geographical environments and national conditions, which may include economic conditions, medical facilities, government policies, etc. These are all constructive questions.
+</span> 
+
+# 3 Minor comments 
+
+<span style='color:blue'> 
+1. Missing references. We need to add references at the end of the report. The sources of data or materials used in this paper should be reflected in the report. In order to make the article more convincing, we can also introduce some authoritative data or examples in the Introduction and Conclusion. It is worth pointing out that we need to use APA format to complete the writing of the "reference" section. Some of the wording in the report seems rather informal. For example: "116 million people were infected with COVID-19 and 2.57 million died from the virus."
+</span> 
+
+<span style='color:blue'> 
+2. In the Analysis section, we don't need to include R code. A good solution is that we only extract and use relevant icons or data. We can choose to move the code part to the end of the report as Appendix. This can make the structure of the article clearer without affecting our analysis and the reader's reading.
+</span> 
+
+<span style='color:blue'> 
+3. There are some problems with the charts of descriptive analysis. In order for the reader to clearly understand the meaning of the diagram, we should try to carefully label each diagram. In addition, it is important to briefly summarize the information of each plot. For example, for "Number of Deaths (US)", we can first get the approximate trend of Number of Deaths in US according to the plot. In addition, we should also integrate it with our analysis content.
+</span> 
+
+<span style='color:blue'> 
+4. The following part of the article needs more adjustment to make it more readable and more complete. For example, instead of saying, "First, let's see... ", we could start by talking more about the reasons behind looking at certain variables from a data set, and then follow "The graph below shows daily.... The number of "such ideas as what to say.
+</span> 
+
+ 
+
+# 4 Questions to address during the final presentation
+
+<span style='color:blue'> 
+Question 1:
+-- why we choose this topic as our final project? 
+</span> 
+
+<span style='color:blue'> 
+Question 2: 
+-- why our group select USA and China Covid-19 cases as contrast insteaad of other regions.
+</span> 
+
+<span style='color:blue'> 
+Question 3: 
+-- why we choose to use this anova model to fit our assumption?
+</span> 
+
+<span style='color:blue'> 
+Question 4: 
+-- Any finding about relation ship between infection numbers and death gloabally? 
+</span> 
+
+<span style='color:blue'> 
+Question 5: 
+-- what special finding do we get from data anaylsis of this data set.
+</span> 
